@@ -1,0 +1,247 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font-family: "Montserrat", sans-serif;
+  --main-header-font-family: "Playfair Display", serif;
+  --main-bg: #fafafa;
+  --clr-white: #FFFFFF;
+  --black-clr: #000000;
+  --grey-clr: #4f4f4f;
+  --grey-clr-2: #bdbdbd;
+  --clr-orange: #f2994a;
+  --black-clr-2: #333333;
+}
+
+/* reset the default style */
+body {
+  color: var(--black-clr);
+  background: var(--main-bg);
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font-family);
+}
+
+h1,
+h2,
+div,
+section,
+img,
+p,
+span,
+h3,
+h4 {
+  margin: 0;
+}
+
+.container {
+  padding: 2em 1em;
+  border: 2px solid;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* hero section / top section */
+.top-title {
+  font-size: 1.5rem; /* 24px */
+  font-family: var(--main-header-font-family);
+  font-weight: 700;
+  margin-bottom: 0.5em; /*  12px */
+}
+
+.top-content {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 0.8em;
+}
+
+.dots {
+  align-self: flex-start;
+}
+
+.top-text {
+  color: var(--grey-clr);
+  font-size: 0.75rem; /* 12px */
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+.hero-img {
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* end top section / hero section */
+
+/* serving container */
+.servings {
+  display: flex;
+  gap: 0.2em;
+  margin-top: 1.5em;
+  margin-bottom: 1.313em;
+}
+
+.servings span {
+  color: var(--clr-orange);
+  font-size: 1rem;
+}
+
+.serving-header {
+  color: var(--grey-clr-2);
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.no-of-serving {
+  color: var(--clr-orange);
+  font-size: 0.625rem;
+  font-weight: 500;
+}
+/* end serving container */
+
+/* time-req-container */
+.time-req-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  color: var(--grey-clr-2);
+  font-size: 0.5rem; /* 8px */
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.flex span {
+  font-size: 0.875rem;
+}
+
+.time {
+  color: var(--black-clr-2);
+  font-size: 0.625rem; /* 10px */
+  margin-top: 2px;
+}
+
+/* end time-req-container */
+
+/* ingredients and cheesecake section */
+.ingredients {
+  margin-top: 1.9em;
+}
+
+.ing-title {
+  font-size: 1.125rem; /* 18px */
+}
+
+.subheading {
+  font-family: var(--main-header-font-family);
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1rem;
+  margin-top: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+.cheesecake-instructions {
+  margin-top: 2.7em;
+}
+
+.cheesecake-title {
+  font-family: var(--main-header-font-family);
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.instruction-box {
+  display: flex;
+  gap: 0.5em;
+}
+
+.instruction-text {
+  font-weight: 400;
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.5em;
+}
+/* end ingredients and cheesecake section */
+
+/* instruction start */
+.bottom-title {
+  font-size: 1.5rem;
+  font-family: var(--main-header-font-family);
+  font-weight: 700;
+  margin: 1.25em 0 1.1667em;
+}
+
+.bottom-section .instruction-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.bottom-section .instruction-text {
+  font-size: 1rem;
+}
+/* instruction end */
+
+/* media query */
+@media (min-width: 768px) {
+  .container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .top-title {
+    font-size: 3rem; /* 48px */
+  }
+
+  .top-text {
+    font-size: 0.875rem; /* 14px */
+    width: 37rem;
+  }
+
+  .hero-img {
+    display: block;
+    max-width: 61rem;
+    margin: 0 auto;
+  }
+
+  .fixed-right {
+    background: var(--clr-white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    right: 5%;
+    position: absolute;
+    padding: 1em 2em;
+    padding-top: 0;
+    top: 95%;
+  }
+
+  .time-req-container {
+    flex-direction: column;
+    gap: 0.9em;
+  }
+
+  .bottom-section .instruction-container {
+    gap: 3em;
+  }
+
+  .instruction-text {
+    width: 60vw;
+  }
+}
+/* end media query */
