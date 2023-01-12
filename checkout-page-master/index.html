@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="shortcut icon" href="./images/devchallenges.png" type="image/x-icon">
+  <!-- minus icon - google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- add icon -> google icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- email icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- call icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- contact icon  -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- home -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- apartment -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- mailbox -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+  <!-- box -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
+  <!-- stylesheet -->
+
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Checkout Page</title>
+</head>
+
+<body>
+
+  <!-- ========== Start main ========== -->
+  <main class="main-content">
+
+    <h1 class="main-title">Checkout</h1>
+    <div class="container">
+
+      <!-- ========== Start checkout container ========== -->
+
+      <section class="checkout-container">
+        <!-- start single item -->
+        <article class="box">
+
+          <div class="image-container">
+            <img src="./images/photo1.png" alt="a bag" class="img-left">
+          </div>
+
+          <div class="box-body">
+            <h2 class="box-title">Vintage Backbag</h2>
+            <div class="price-wrapper">
+              <span class="new-price">$54.99</span>
+              <span class="old-price">$94.99</span>
+            </div>
+            <div class="button-container">
+              <button class="btn minus-btn">
+                <span class="material-symbols-outlined">
+                  remove
+                </span>
+              </button>
+              <span class="btn-text">1</span>
+              <button class="btn add-btn">
+                <span class="material-symbols-outlined">
+                  add
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </article>
+        <!-- end single item -->
+
+        <!-- start single item -->
+        <article class="box">
+
+          <div class="image-container">
+            <img src="./images/photo2.png" alt="a shoe from levi" class="img-left">
+          </div>
+
+          <div class="box-body">
+            <h2 class="box-title">Levi Shoes</h2>
+            <div class="price-wrapper">
+              <span class="new-price">$74.99</span>
+              <span class="old-price">$124.99</span>
+            </div>
+
+            <div class="button-container">
+              <button class="btn minus-btn">
+                <span class="material-symbols-outlined">
+                  remove
+                </span>
+              </button>
+              <span class="btn-text">1</span>
+              <button class="btn add-btn">
+                <span class="material-symbols-outlined">
+                  add
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </article>
+        <!-- end single item -->
+
+        <!-- start price container -->
+        <article class="total-price-container">
+
+          <div class="price-box">
+            <h4 class="price-title">Shipping</h4>
+            <p class="price">$19</p>
+          </div>
+
+          <div class="price-box">
+            <h4 class="price-title">Total</h4>
+            <p class="price">$148.98</p>
+          </div>
+
+        </article>
+        <!-- end price container -->
+      </section>
+      <!-- ========== End checkout container ========== -->
+
+      <!-- ========== Start contact information ========== -->
+      <div class="form-data">
+        <section class="contact-information-section">
+          <h5 class="section-heading">Contact infomation</h5>
+          <form class="contact-form">
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <span class="material-symbols-outlined">mail</span>
+              <input type="email" name="email" id="email" placeholder="Enter your email...">
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <span class="material-symbols-outlined">call </span>
+              <input type="number" name="phone" id="phone" placeholder="Enter your phone...">
+            </div>
+
+          </form>
+        </section>
+
+        <!-- ========== End contact information ========== -->
+
+        <!-- ========== Start shipping address ========== -->
+        <section class="shipping-address-section">
+          <h5 class="section-heading">Montserrat</h5>
+
+          <form class="shipping-address-form">
+
+            <div class="form-group">
+              <label for="full-name">Full name</label>
+              <span class="material-symbols-outlined">contact_phone</span>
+              <input type="text" name="fullName" id="full-name" placeholder="Rodney Cotton">
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address</label>
+              <span class="material-symbols-outlined">home</span>
+              <input type="text" name="address" id="address" placeholder="Your address..">
+            </div>
+
+            <div class="form-group">
+              <label for="city">City</label>
+              <span class="material-symbols-outlined">apartment</span>
+              <input type="text" name="city" id="city" placeholder="Your city..">
+            </div>
+
+            <div class="input-wrapper">
+
+              <div class="form-group">
+                <label for="country">Country</label>
+                <span class="material-symbols-outlined">apartment</span>
+                <input type="text" name="country" id="country" placeholder="Your country..">
+              </div>
+
+              <div class="form-group">
+                <label for="postal-code">Postal code</label>
+                <span class="material-symbols-outlined">markunread_mailbox</span>
+                <input type="text" name="postal-code" id="postal-code" placeholder="Your postal code..">
+              </div>
+
+            </div>
+
+            <div class="save-info">
+              <span class="material-symbols-outlined">check_box_outline_blank</span>
+              <p class="info-text">Save this information for next time</p>
+            </div>
+
+          </form>
+
+        </section>
+
+        <!-- ========== End shipping address ========== -->
+
+        <div class="btn-wrapper">
+          <button class="continue-btn">Continue</button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <!-- ========== End main ========== -->
+
+
+  <!-- js -->
+  <script src="./javascript/index.js"></script>
+</body>
+
+</html>
