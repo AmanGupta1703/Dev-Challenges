@@ -7,7 +7,36 @@
     font-size: var(--font-size-18);
   }
 
-  .question-text,
+  .footer .row-team .row-1,
+  .row-2 .row .nav .question-text {
+    display: flex;
+  }
+
+  .header-section,
+  .row,
+  .row-team {
+    align-items: center;
+  }
+
+  .header-title,
+  .services,
+  .feature-header,
+  .review {
+    font-size: var(--font-size-36);
+  }
+
+  .hero-heading,
+  .sub-heading {
+    font-size: var(--font-size-48);
+  }
+
+  .feature-box:hover,
+  .col:hover {
+    border-radius: var(--main-border-radius-24);
+    box-shadow: var(--main-box-shadow);
+    padding: 3.13em 2.13em;
+  }
+
   .hero-text {
     padding-left: 15.4em;
   }
@@ -15,11 +44,6 @@
   /* header */
   .header-section {
     padding: 1.63em 2.3em;
-    align-items: center;
-  }
-
-  .header-title {
-    font-size: var(--font-size-36);
   }
 
   .navbar-toggle {
@@ -32,13 +56,12 @@
   }
 
   .nav {
-    display: flex;
+    height: auto;
     gap: 1.4em;
   }
 
   /* hero section */
   .hero-heading {
-    font-size: var(--font-size-48);
     padding-left: 5.77em;
     padding-right: 12.9167em;
   }
@@ -50,7 +73,6 @@
   }
 
   .sub-heading {
-    font-size: var(--font-size-48);
     padding-left: 5.77em;
     padding-right: 16.667em;
   }
@@ -70,7 +92,6 @@
 
   /* services */
   .services {
-    font-size: var(--font-size-36);
     padding-right: 25.833em;
   }
 
@@ -79,9 +100,7 @@
   }
 
   .row {
-    display: flex;
     gap: 4.687em;
-    align-items: center;
   }
 
   .design-section,
@@ -103,22 +122,14 @@
     box-shadow: none;
   }
 
-  .col:hover {
-    border-radius: var(--main-border-radius-24);
-    box-shadow: var(--main-box-shadow);
-    padding: 3.13em 2.13em;
-  }
-
   /* features */
   .feature-header {
-    font-size: var(--font-size-36);
     width: 100%;
     padding-right: 24em;
   }
 
   .row-1,
   .row-2 {
-    display: flex;
     gap: 1.25em;
   }
 
@@ -127,16 +138,7 @@
     transition: all 500ms ease;
   }
 
-  .feature-box:hover {
-    border-radius: var(--main-border-radius-24);
-    box-shadow: var(--main-box-shadow);
-    padding: 3.13em 2.13em;
-  }
-
-  .box-2 {
-    transform: translateY(-10rem);
-  }
-
+  .box-2,
   .box-4 {
     transform: translateY(-10rem);
   }
@@ -151,11 +153,6 @@
   }
 
   /* team info */
-  .row-team {
-    display: flex;
-    align-items: center;
-  }
-
   .feature-content {
     padding-right: 12em;
   }
@@ -169,21 +166,16 @@
   }
 
   .review {
-    font-size: var(--font-size-36);
     padding-right: 10em;
   }
 
   .footer {
-    display: flex;
     justify-content: space-between;
     margin-top: 13em;
     padding: 7em 10.5em;
   }
 
-  .footer-header-nav-links {
-    align-self: flex-start;
-  }
-
+  .footer-header-nav-links,
   .footer .join-form {
     align-self: flex-start;
   }
