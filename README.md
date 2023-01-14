@@ -12,26 +12,26 @@
 
 - Checkout Page
 -----
-![Checkout Page - Lapout Preview](/output/Checkout Page/laptop-output.png)
-![Checkout Page - Mobile Preview](/output/Checkout Page/mobile-output.png)
+![Checkout Page - Lapout Preview](Dev-Challenges/output/Checkout Page/laptop-output.png)
+![Checkout Page - Mobile Preview](Dev-Challenges/output/Checkout Page/mobile-output.png)
 
 - Edie's Homepage
 -----
-![Edie's Homepage - Lapout Preview](/output/Edie's Homepage/laptop-output.png)
-![Edie's Homepage - Mobile Preview](/output/Edie's Homepage/mobile-output.png)
+![Edie's Homepage - Lapout Preview](Dev-Challenges/output/Edie's Homepage/laptop-output.png)
+![Edie's Homepage - Mobile Preview](Dev-Challenges/output/Edie's Homepage/mobile-output.png)
 
 - Interior Consultant
 -----
-![Interior Consultant - Lapout Preview](/output/Interior Consultant/laptop-output.png)
-![Interior Consultant - Mobile Preview](/output/Interior Consultant/mobile-output.png
+![Interior Consultant - Lapout Preview](Dev-Challenges/output/Interior Consultant/laptop-output.png)
+![Interior Consultant - Mobile Preview](Dev-Challenges/output/Interior Consultant/mobile-output.png)
 
 - My Gallery
 -----
-![My Gallery - Lapout Preview](/output/My Gallery/laptop-output.png)
-![My Gallery - Mobile Preview](/output/My Gallery/laptop-output.png)
+![My Gallery - Lapout Preview](Dev-Challenges/output/My Gallery/laptop-output.png)
+![My Gallery - Mobile Preview](Dev-Challenges/output/My Gallery/laptop-output.png)
 
 - Recipe Blog
 -----
-![My Gallery - Lapout Preview](/output/Recipe Blog/laptop-output.png)
-![My Gallery - Mobile Preview](/output/Recipe Blog/mobile-output.png)
+![My Gallery - Lapout Preview](Dev-Challenges/output/Recipe Blog/laptop-output.png)
+![My Gallery - Mobile Preview](Dev-Challenges/output/Recipe Blog/mobile-output.png)
 
