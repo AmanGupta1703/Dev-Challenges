@@ -1,0 +1,35 @@
+// color palette
+$colors: (
+    // light grey shades
+    "clr-light-grey-1": #E0E0E0,
+    "clr-light-grey-2": #AEAEAE, 
+    "clr-light-grey-3": #9E9E9E,
+
+    // dark grey shades
+    "clr-dark-grey-1": #455A64,
+    "clr-dark-grey-2": #AEAEAE,
+    "clr-dark-grey-3": #1C313A,
+    "clr-dark-grey-4": #4F4F4F,
+
+    // dark blue shades
+    "clr-dark-blue-1": #3D5AFE,
+    "clr-dark-blue-2": #2962FF,
+    "clr-dark-blue-3": #0039CB,
+
+    // light blue shades
+    "clr--light-blue-1": rgba(41, 98, 255, 0.1),
+
+    // red shades
+    "clr-red-1": #D32F2F,
+    "clr-red-2": #9A0007,
+
+    // black shades
+    "clr-black-1": #333333
+
+);
+
+@each $themeColour, $value in $colors {
+    .#{$themeColour} {
+        background-color: $value;
+    }
+}

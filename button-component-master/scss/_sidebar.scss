@@ -1,0 +1,41 @@
+.sidebar {
+  padding: 3em 0 0 3.5em;
+
+  &--title {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 0.8125rem;
+
+    span {
+      color: #f7542e;
+    }
+  }
+
+  &--navbar {
+    margin-top: 7.625em;
+  }
+}
+
+.nav {
+  font-family: "Noto Sans JP";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 40vh;
+  list-style: none;
+  padding: 0;
+
+  &-item {
+    margin: 0;
+  }
+
+  &-link {
+    color: map-get($colors, clr-light-grey-3);
+    text-decoration: none;
+  }
+
+  .active {
+    color: #090f31;
+    font-weight: 700;
+  }
+}

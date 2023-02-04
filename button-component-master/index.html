@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./images/devchallenges.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://kit.fontawesome.com/42c1e8db0f.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <main class="main-content hide">
+
+    <!-- sidebar -->
+    <section class="sidebar">
+      <header class="sidebar--header">
+        <h4 class="sidebar--title"><span class="clr-red">Dev</span>challenges.io</h4>
+        <nav class="sidebar--navbar">
+          <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">Colors</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Typography</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Spaces</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Buttons</a></li>
+            <li class="nav-item"><a href="#" class="nav-link active">Inputs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Grid</a></li>
+          </ul>
+        </nav>
+      </header>
+    </section>
+
+    <!-- button -->
+    <section class="button-section">
+      <h1 class="button-section__header">Buttons</h1>
+
+      <article class="btns-container">
+
+        <!-- default btns -->
+        <div class="default-btns box">
+          <!-- box-1 start -->
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button/&gt; </p>
+            <button class="btn btn-default clr-light-grey-1">Default</button>
+          </div>
+          <!-- box-1 end -->
+
+          <!-- box-2 start -->
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button/&gt; </p>
+            <button class="btn btn-default-hover clr-light-grey-2">Default</button>
+          </div>
+          <!-- box-2 end -->
+        </div>
+        <!-- end default btns -->
+
+        <!-- outline btns start -->
+        <div class="outline-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button variant=”outline” /&gt; </p>
+            <button class="btn btn-outline">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus </p>
+            <button class="btn btn-outline-hover clr--light-blue-1">Default</button>
+          </div>
+
+        </div>
+        <!-- outline btns end -->
+
+        <!-- text btns start -->
+        <div class="text-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button variant="text" /&gt; </p>
+            <button class="btn btn-text">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus </p>
+            <button class="btn btn-text-hover">Default</button>
+          </div>
+
+        </div>
+        <!-- text btns end -->
+
+        <!-- disable shadow btns start -->
+        <div class="disable-shadow-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button disableShadow /&gt; </p>
+            <button class="btn btn-disable-shadow clr-dark-blue-1">Default</button>
+          </div>
+
+        </div>
+        <!-- disable btns end -->
+
+        <!-- disable btns start -->
+        <div class="disable-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button disabled /&gt; </p>
+            <button class="btn btn-disable clr-light-grey-1">Disabled</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button variant="text" disabled /&gt; </p>
+            <button class="btn btn-disable-hover">Disabled</button>
+          </div>
+
+        </div>
+        <!-- disable btns end -->
+
+        <!-- local grocery btn start -->
+        <div class="cart-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button starIcon="local_grocery_store" /&gt; </p>
+            <button class="btn btn-grocery-btn clr-dark-blue-2"><i class="fa-solid fa-cart-arrow-down"></i> Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button starIcon="local_grocery_store" /&gt; </p>
+            <button class="btn btn-grocery-btn-hover clr-dark-blue-2">Default <i class="fa-solid fa-cart-arrow-down"></i></button>
+          </div>
+
+        </div>
+        <!-- local grocery btn end -->
+
+        <!-- btn ` sm-md-lg ` -->
+        <div class="sm-md-lg-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button size="sm" /&gt; </p>
+            <button class="btn btn-sm clr-dark-blue-2">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button size="md" /&gt; </p>
+            <button class="btn btn-md clr-dark-blue-2">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button size="lg" /&gt; </p>
+            <button class="btn btn-lg clr-dark-blue-2">Default</button>
+          </div>
+
+        </div>
+
+        <!-- color btns -->
+        <div class="basic-colors-btns box">
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button color="default" /&gt; </p>
+            <button class="btn btn-default clr-light-grey-1">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button color="primary" /&gt; </p>
+            <button class="btn btn-primary clr-dark-blue-2">primary</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button color="secondary" /&gt; </p>
+            <button class="btn btn-secondary clr-dark-grey-1">secondary</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &lt;Button color="danger" /&gt; </p>
+            <button class="btn btn-danger clr-red-1">danger</button>
+          </div>
+
+          <!-- hover -->
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus </p>
+            <button class="btn btn-default-hover clr-dark-grey-2">Default</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus /&gt; </p>
+            <button class="btn btn-primary-hover clr-dark-blue-3">primary</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus </p>
+            <button class="btn btn-secondary-hover clr-dark-grey-3">secondary</button>
+          </div>
+
+          <div class="btn-box">
+            <p class="btn-box__title"> &:hover, &:focus </p>
+            <button class="btn btn-danger-hover clr-red-2">danger</button>
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <script src="https://kit.fontawesome.com/42c1e8db0f.js" crossorigin="anonymous"></script>
+  <script src="./javascript/app.js"></script>
+</body>
+
+</html>
+
+<!-- 
+  <i class="fa-solid fa-cart-arrow-down"></i>
+ -->

@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap");
+.clr-light-grey-1 {
+  background-color: #E0E0E0;
+}
+
+.clr-light-grey-2 {
+  background-color: #AEAEAE;
+}
+
+.clr-light-grey-3 {
+  background-color: #9E9E9E;
+}
+
+.clr-dark-grey-1 {
+  background-color: #455A64;
+}
+
+.clr-dark-grey-2 {
+  background-color: #AEAEAE;
+}
+
+.clr-dark-grey-3 {
+  background-color: #1C313A;
+}
+
+.clr-dark-grey-4 {
+  background-color: #4F4F4F;
+}
+
+.clr-dark-blue-1 {
+  background-color: #3D5AFE;
+}
+
+.clr-dark-blue-2 {
+  background-color: #2962FF;
+}
+
+.clr-dark-blue-3 {
+  background-color: #0039CB;
+}
+
+.clr--light-blue-1 {
+  background-color: rgba(41, 98, 255, 0.1);
+}
+
+.clr-red-1 {
+  background-color: #D32F2F;
+}
+
+.clr-red-2 {
+  background-color: #9A0007;
+}
+
+.clr-black-1 {
+  background-color: #333333;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1,
+h4,
+ul,
+li,
+a,
+p,
+button {
+  margin: 0;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 240px 1fr;
+  grid-template-columns: 240px 1fr;
+  position: absolute;
+  z-index: 2;
+  -webkit-transition: all 1s ease-in 1s;
+  transition: all 1s ease-in 1s;
+}
+
+.hide {
+  top: 100%;
+}
+
+.button-section {
+  padding: 2.313em 5.2em;
+}
+.button-section__header {
+  font-family: "Poppins";
+  color: #4F4F4F;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 1.1667em;
+}
+
+.btns-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 75vh;
+  gap: 0.89rem;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.btn-box__title {
+  color: #333;
+  font-family: "Ubuntu Mono";
+  font-size: 0.75em;
+  margin-bottom: 1em;
+}
+.btn-box .btn {
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  font-family: "Noto Sans JP";
+  border-radius: 0.43em;
+  font-size: 0.875rem;
+  padding: 0.6em 1.143em;
+}
+
+.outline-btns .btn-outline,
+.outline-btns .btn-outline-hover {
+  color: #3D5AFE;
+  border: 1px solid #3D5AFE;
+}
+.outline-btns .btn-outline {
+  background: transparent;
+}
+
+.text-btns .btn-text,
+.text-btns .btn-text-hover {
+  color: #3D5AFE;
+}
+.text-btns .btn-text {
+  background: transparent;
+}
+.text-btns .btn-text-hover {
+  border: none;
+  background: rgba(41, 98, 255, 0.1);
+}
+
+.disable-btns .btn-disable-hover {
+  color: #9E9E9E;
+  background: none;
+}
+
+.sm-md-lg-btns .btn-sm {
+  width: 4.562rem;
+}
+.sm-md-lg-btns .btn-md {
+  width: 5.1rem;
+}
+.sm-md-lg-btns .btn-lg {
+  width: 5.812rem;
+}
+
+.sidebar {
+  padding: 3em 0 0 3.5em;
+}
+.sidebar--title {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 0.8125rem;
+}
+.sidebar--title span {
+  color: #f7542e;
+}
+.sidebar--navbar {
+  margin-top: 7.625em;
+}
+
+.nav {
+  font-family: "Noto Sans JP";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 40vh;
+  list-style: none;
+  padding: 0;
+}
+.nav-item {
+  margin: 0;
+}
+.nav-link {
+  color: #9E9E9E;
+  text-decoration: none;
+}
+.nav .active {
+  color: #090f31;
+  font-weight: 700;
+}

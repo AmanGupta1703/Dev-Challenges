@@ -1,0 +1,25 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@600&family=Ubuntu+Mono&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1,
+h4,
+ul,
+li,
+a,
+p,
+button {
+    margin: 0;
+}
