@@ -1,0 +1,69 @@
+input {
+    width: 200px;
+}
+
+.input-section {
+    padding: 1.875em 0 0 5.063em;
+
+    &__title {
+        color: map-get($map: $theme-colors, $key: grey-2);
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 1.5rem;
+        margin: 0 0 3em;
+    }
+}
+
+.inner-container {
+    width: 45.63rem;
+}
+
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 2.62em;
+
+    input {
+        border-radius: 0.5rem;
+    }
+}
+
+.icon-with-input__child-1 {
+    position: relative;
+    z-index: 2;
+
+    .img-left {
+        position: absolute;
+        z-index: 1;
+        top: 64%;
+        left: .5em;
+    }
+
+    input {
+        padding-left: 30px;
+    }
+}
+
+
+.icon-with-input__child-2 {
+    position: relative;
+    .img-right {
+        position: absolute;
+        right: 4px;
+        bottom: 15%;
+    }
+}
+
+.full-width-input {
+    width: 100%;
+}
+
+.textarea-box {
+    input {
+        height: 9.4rem;
+    }
+}
+
+.text {
+    margin: 0.4em 0 0;
+}

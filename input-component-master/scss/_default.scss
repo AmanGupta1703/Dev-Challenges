@@ -1,0 +1,91 @@
+// Google Font
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Poppins:wght@500;600&family=Ubuntu+Mono&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    transition: all 500ms ease;
+}
+
+h2,
+h4,
+li,
+ul,
+a,
+p {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+label,
+a,
+::placeholder {
+    font-family: "Noto Sans JP";
+}
+
+label,
+p {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+a {
+    color: map-get($map: $theme-colors, $key: grey-1);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+p {
+    font-family: 'Ubuntu Mono';
+    margin: 0 0 1.333em;
+}
+
+label {
+    margin: 0 0 0.333em;
+}
+
+textarea,
+input {
+    display: block;
+}
+
+textarea {
+    resize: none;
+    padding: .5em 1em;
+}
+
+input {
+    border: 1px solid #333333;
+    padding: 1.2em 0.857em;
+    outline: none;
+}
+
+::placeholder {
+    color: map-get($map: $theme-colors, $key: grey-4);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.bg-dark {
+    background: #000;
+}
+
+.bg-light {
+    background: lighten($color: #000000, $amount: 100%);
+}
+
+input:focus {
+    background: map-get($map: $theme-colors, $key: grey-5);
+    border: 1px solid lighten($color: #000000, $amount: 100%);
+}

@@ -1,0 +1,29 @@
+.sidebar {
+    background: map-get($theme-colors, sidebar-bg);
+    padding: 3em 5em 0 3em;;
+
+    &__title {
+        font-family: 'Poppins';
+        font-size: 0.813rem;
+        font-weight: 600;
+
+        span {
+            color: map-get($map: $theme-colors, $key: orange-1);
+        }
+    }
+}
+
+.nav {
+    margin-top: 5em;
+
+    &-item {
+        .active {
+            color: map-get($map: $theme-colors, $key: active-clr);
+            font-weight: 700;
+        }
+    }
+
+    &-item:not(:last-of-type) {
+        margin-bottom: 2.2em;
+    }
+}

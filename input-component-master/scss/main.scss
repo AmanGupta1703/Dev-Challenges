@@ -1,0 +1,9 @@
+@import "./config";
+@import "./default";
+@import "./sidebar";
+@import "./input-elements";
+
+.main-content {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+}

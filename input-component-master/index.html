@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+  <link rel="shortcut icon" href="./images/devchallenges.png" type="image/x-icon">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://kit.fontawesome.com/42c1e8db0f.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+  <main class="main-content">
+
+    <section class="sidebar">
+
+      <h4 class="sidebar__title"><span>Dev</span>challenges.io</h4>
+
+      <nav class="sidebar__navbar">
+
+        <ul class="nav">
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">Typography</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Grid</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Buttons</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Inputs</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </section>
+
+    <section class="input-section">
+
+      <h2 class="input-section__title">Inputs</h2>
+
+      <article class="inner-container">
+
+        <!-- default box -->
+        <div class="default-box input-box">
+
+          <!-- element1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-1">Label</label>
+                <input type="text" id="input-1" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- element2 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&:hover</p>
+
+              <div class="form-group">
+
+                <label for="input-2">Label</label>
+                <input type="text" id="input-2" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- element-3 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&:focus</p>
+
+              <div class="form-group">
+
+                <label for="input-3" class="text-color-blue">Label</label>
+                <input type="text" id="input-3" class="border-blue" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- default box end -->
+
+        <!-- error box -->
+        <div class="error-box input-box">
+
+          <!-- element1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input error /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-4" class="text-color-red">Label</label>
+                <input type="text" class="border-red" id="input-4" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- element2 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&:hover</p>
+
+              <div class="form-group">
+
+                <label for="input-5">Label</label>
+                <input type="text" id="input-5" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- element-3 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&:focus</p>
+
+              <div class="form-group">
+
+                <label for="input-6" class="text-color-red">Label</label>
+                <input type="text" id="input-6" class="border-red" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+        <!-- error box end -->
+
+        <!-- disabled box -->
+        <div class="disable-box input-box">
+
+          <!-- element-1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input disabled /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-7">Label</label>
+                <input type="text" id="input-7" class="bg-grey-5" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- element-1 end -->
+
+        </div>
+
+        <!-- interesting text based on input -->
+        <div class="interesting-text input-box">
+
+          <!-- element-1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input helperText="Some interesting text" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-8">Label</label>
+                <input type="text" id="input-8" class="" placeholder="Placeholder">
+
+              </div>
+
+              <p class="text">Some interesting text</p>
+
+            </div>
+
+          </div>
+          <!-- element-1 end -->
+
+          <!-- element-2 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input helperText="Some interesting text" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-9" class="text-color-red">Label</label>
+                <input type="text" id="input-9" class="border-red" placeholder="Placeholder">
+
+              </div>
+              <p class="text text-color-red">Some interesting text</p>
+
+            </div>
+
+          </div>
+          <!-- element-2 end -->
+
+        </div>
+
+        <!-- input with icon -->
+        <div class="icon-with-input input-box">
+
+          <!-- element-1 -->
+          <div class="example-input-box icon-with-input__child-1">
+            <div class="example">
+              <p class="example__title">&lt; Input starIcon /&gt;</p>
+
+              <div class="form-group">
+
+                <div class="img-left">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <label for="input-10">Label</label>
+                <input type="text" id="input-10" class="" placeholder="Placeholder">
+              </div>
+            </div>
+
+          </div>
+          <!-- element-1 end -->
+
+          <!-- element-2 -->
+          <div class="example-input-box icon-with-input__child-2">
+            <div class="example">
+              <p class="example__title">&lt; Input starIcon /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-11">Label</label>
+                <input type="text" id="input-11" class="" placeholder="Placeholder">
+                <div class="img-right">
+                  <i class="fa-solid fa-lock"></i>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- element-2 end -->
+
+        </div>
+
+        <!-- basic input -->
+        <div class="basic-input input-box">
+
+          <!-- element1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input value="text" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-12">Label</label>
+                <input type="text" id="input-12" placeholder="Text">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- element1 end -->
+
+        </div>
+
+        <!-- size input -->
+        <div class="sm-md-input input-box">
+
+          <!-- element-1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input size="sm" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-13">Label</label>
+                <input type="text" id="input-13" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- element-1 end -->
+
+          <!-- element-2 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input size="md" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-14">Label</label>
+                <input type="text" id="input-14" placeholder="Placeholder">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- element-2 end -->
+
+        </div>
+
+        <!-- full width input -->
+        <div class="full-width-input input-box">
+
+          <!-- elemen-1 -->
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input fullWidth /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-14">Label</label>
+                <input type="text" id="input-14" placeholder="Text">
+
+              </div>
+
+            </div>
+
+          </div>
+          <!-- elemen-1 end -->
+
+        </div>
+
+        <!-- text area -->
+        <div class="textarea-box input-box">
+
+          <div class="example-input-box">
+
+            <div class="example">
+
+              <p class="example__title">&lt; Input multiline="4" /&gt;</p>
+
+              <div class="form-group">
+
+                <label for="input-15">Label</label>
+                <textarea rows="10" cols="24" id="input-15"     placeholder="Placeholder">
+                </textarea>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/42c1e8db0f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
